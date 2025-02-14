@@ -56,11 +56,13 @@ body{
     /*cursor mãozinha*/
     cursor: pointer;
     transition: all 0.9s;
+
 }
 
 #verifica-nota:hover{
     background-color: rgb(232, 229, 229);
     color: #191970;
+
 }
 
 #resultado{
