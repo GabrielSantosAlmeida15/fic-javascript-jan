@@ -69,3 +69,13 @@ body{
     color: fff;
     margin-bottom: 10px;
 }
+
+#message{
+    display: none;
+}
+
+#message span{
+    color: rgb(27, 57, 192);
+    padding-bottom: 10px;   
+    display: block;
+}

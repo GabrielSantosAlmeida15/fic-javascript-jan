@@ -1,11 +1,18 @@
 // Váriaveis
 const inputNota = document.getElementById("nota");
 const resultado = document.getElementById("resultado");
+let messageError = document.getElementById("message");
 
 function resultadoNotaClick(event){
     // previne um comportamento no navegador
     event.preventDefault();
     console.log(inputNota.value);
+
+    // Validação de formulario
+    if(inputNota.value == ""){
+        messageError.style.display= "block";
+        return false;
+    }
 
     // condição
     if(inputNota.value >= 6){
