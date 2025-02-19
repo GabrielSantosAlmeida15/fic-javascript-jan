@@ -3,17 +3,17 @@ const userName = document.getElementById("nome");
 const userCity = document.getElementById("cidade");
 const userEmail = document.getElementById("email");
 
-const title = document.getElementById("titulo"); 
+const title = document.getElementById("titulo");
 const subtitle = document.getElementById("subtitulo");
 const txtEmail = document.getElementById("txt-email");
 
 
-function mudar(event){
+function mudar(event) {
     event.preventDefault();
     console.log(userName.value);
 
     //Validação
-    if(userName.value || userCity.value || userEmail.value === ""){
+    if (userName.value == "" || userCity.value == "" || userEmail.value == "") {
         alert("Preencha os campos")
         return false;
     }
@@ -31,8 +31,17 @@ function mudar(event){
     userCity.value = "";
 
     userEmail.value = "";
-    
-    
+
+
+}
+
+function mudarCor() {
+    if (document.body.style.backgroundColor === "white") {
+        document.body.style.backgroundColor = "";
+    }
+    else {
+        document.body.style.backgroundColor = "orange"
+    }
 }
 
 
