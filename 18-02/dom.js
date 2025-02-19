@@ -19,4 +19,14 @@ function mudar(event){
 
     txtEmail.innerHTML = userEmail.value;
 
+    userName.value = "";
+
+    userCity.value = "";
+
+    userEmail.value = "";
+    
+    
 }
+
+
+
