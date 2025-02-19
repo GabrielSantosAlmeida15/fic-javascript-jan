@@ -12,6 +12,12 @@ function mudar(event){
     event.preventDefault();
     console.log(userName.value);
 
+    //Validação
+    if(userName.value || userCity.value || userEmail.value === ""){
+        alert("Preencha os campos")
+        return false;
+    }
+
     // Imprimir na tela
     title.innerHTML = userName.value;
 
@@ -19,6 +25,7 @@ function mudar(event){
 
     txtEmail.innerHTML = userEmail.value;
 
+    //Limpar campos
     userName.value = "";
 
     userCity.value = "";
