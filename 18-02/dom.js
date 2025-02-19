@@ -36,7 +36,7 @@ function mudar(event) {
 }
 
 function mudarCor() {
-    if (document.body.style.backgroundColor === "white") {
+    if (document.body.style.backgroundColor === "orange") {
         document.body.style.backgroundColor = "";
     }
     else {
