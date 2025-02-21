@@ -24,3 +24,7 @@ h1 {
 .car p {
     margin: 5px 0;
 }
+
+.links a{
+    text-decoration: wavy underline;
+}
