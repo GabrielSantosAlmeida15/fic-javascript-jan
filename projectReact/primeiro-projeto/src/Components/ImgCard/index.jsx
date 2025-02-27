@@ -7,11 +7,11 @@ export default function ImgCard(props) {
   return (
     <div className='image-card'>
         <img src = {img1} />
-        <img src = {img2} />
         <p className='image-card-caption'>
             {props.newImg}
         </p>
     </div>
+    
   )
 }
 
