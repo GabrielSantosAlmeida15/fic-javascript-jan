@@ -4,7 +4,12 @@ import ImgCard from "./Components/ImgCard";
 import Card from "./Components/card";
 import img1 from "./assets/img-1.jpg";
 import img2 from "./assets/img-2.jpg";
+import Times from "./Components/Times";
+import Botao from "./Components/Button";
+import Count from "./Components/Count";
+
 import "./App.css";
+
 
 function App() {
 
@@ -25,7 +30,13 @@ function App() {
           <ImgCard caption="Uma imagem legal" newImg/>
         </div>
 
-        <Card />
+        {/*<Card />*/}
+
+        {/*<Times/>*/}
+        
+        <Botao/>
+
+        <Count/>
       </div>
     </>
   )

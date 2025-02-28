@@ -34,7 +34,7 @@ export default function Card() {
 
     return (
         <div className='card-container'>
-            {lista.map((item, index) => {          
+            {lista.map((item, index) => {
                 return (
                     <div className="card" key={index}>
                         <h2>{item.nome}</h2>
