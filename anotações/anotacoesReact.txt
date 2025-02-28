@@ -1,0 +1,9 @@
+Criar projeto: npm create vite@latest
+
+instalar node-module(não sobe para o git): npm install
+
+rodar projeto: npm run dev 
+
+/*O children permite que você passe e renderize conteúdo dinâmico dentro de um componente
+      O props cria propriedades no componentes
+    */
